@@ -1,5 +1,73 @@
 body {
+
 	text-align: center;
-	background-color: #4BA3EB;
+  margin: 0 auto;
+	background-image: url(https://images.pexels.com/photos/547114/pexels-photo-547114.jpeg?w=940&h=650&auto=compress&cs=tinysrgb);
+	background-repeat: no-repeat;
+	background-size: cover;
 	color: #fff;
+  font-family: "Copperplate Gothic Light", sans-serif;
 }
+
+header h1 {
+  text-transform: uppercase;
+  max-width: 80%;
+  padding-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto;
+  font-size: 28px;
+ }
+
+.quote {
+  font-size: 40px;
+  text-align: center;
+  padding: 25px;
+  font-weight: 400; 
+}
+
+.author {
+  font-size: 20px;
+  padding: 10px;
+  text-align: right;
+  font-weight: 400;
+  margin-right: 25px; 
+}
+
+.trigger {
+  border: 1px solid #3a3e64;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 10px;
+  height: 50px;
+  width: 150px;
+  color: white;
+  background-color: #4e89c3;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.trigger:hover {
+  cursor: pointer; 
+  background-color: #009ef6;
+}
+
+.tweet {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 10px;
+  border: 1px solid #3a3e64;  
+  background-color: #4e89c3;
+  padding: 13px;
+  margin: 10px;
+  height: 50px;
+  width: 150px;
+  text-decoration: none;
+}
+
+.tweet:hover {
+  cursor: pointer; 
+  background-color: #009ef6;
+  border: 0;
+

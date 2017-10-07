@@ -6,7 +6,7 @@ function getQuote() {
 }
 
 function createTweet(input) {
-	if (!input.quoteAuthor.length) {
+	if (input.quoteAuthor.length) {
 		input.quoteAuthor = 'Unknown author';
 	}
 

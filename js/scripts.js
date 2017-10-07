@@ -1,5 +1,5 @@
 var tweetLink = "https://twitter.com/intent/tweet?text=";
-var quoteUrl = "https://api.forismatic.com/api/1.0/?method=getQuote&key=867576&format=jsonp&lang=en&jsonp=?";
+var quoteUrl = "https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1";
 
 function getQuote() {
 	$.getJSON(quoteUrl, createTweet);

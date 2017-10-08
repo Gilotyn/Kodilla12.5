@@ -8,19 +8,18 @@ body {
 }
 
 header h1 {
-  text-transform: uppercase;
   max-width: 80%;
-  padding-top: 30px;
+  padding-top: 25px;
   text-align: center;
   margin: 0 auto;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 400;
  }
 
 .quote {
   font-size: 40px;
   text-align: center;
-  padding: 25px;
+  padding: 20px;
   font-weight: 400; 
 }
 
@@ -66,4 +65,24 @@ header h1 {
 .tweet:hover {
   cursor: pointer; 
   background-color: rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 480px){
+
+  .quote {
+    font-size: 40px;
+    margin: 0 auto;
+  }
+
+  .trigger {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+  .tweet {
+    margin: 0 auto;
+    padding: 13px;
+  }
+}
 
